@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": { "rootDir": "src", "outDir": "lib", "declaration": true, "types": ["node"], "tsBuildInfoFile": "./node_modules/.cache/skills-manager/host.tsbuildinfo" },
+  "include": ["src/index.ts", "src/skills.ts", "src/protocol.ts"]
+}
