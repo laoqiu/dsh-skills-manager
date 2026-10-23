@@ -2,7 +2,12 @@
 export default `
 .skm-page{container-type:inline-size;display:flex;flex-direction:column;gap:20px;max-width:760px;min-width:0;color:var(--dsw-alias-label-primary);font-size:13px}
 .skm-header,.skm-group-header,.skm-name,.skm-actions,.skm-row-actions{display:flex;align-items:center;gap:8px}
-.skm-header{justify-content:space-between}.skm-header h2{margin:0;font-size:18px;font-weight:500;line-height:28px}
+.skm-header{flex-direction:column;align-items:stretch;gap:8px}.skm-title-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;min-width:0}.skm-header h2{display:flex;align-items:center;gap:8px;margin:0;font-size:18px;font-weight:600;line-height:28px}
+.skm-version{color:var(--dsw-alias-label-tertiary,#8b93a1);font-variant-numeric:tabular-nums;flex-shrink:0;font-size:12px;font-weight:400;line-height:20px}
+.skm-subtitle{color:var(--dsw-alias-label-tertiary,#8b93a1);align-items:center;gap:8px;margin:0;font-size:12px;line-height:18px;display:flex}
+.skm-update{display:flex;flex-direction:column;gap:12px;font-size:13px;color:var(--dsw-alias-label-secondary)}.skm-update p{display:flex;align-items:center;gap:8px;margin:0;line-height:20px}
+.skm-header-actions{display:flex;align-items:center;justify-content:flex-end;gap:4px;min-width:92px;margin-left:auto;flex:none}.skm-header-action{width:28px;min-width:28px;height:28px;padding:6px!important;border-radius:8px;color:var(--dsw-alias-label-tertiary,#8b93a1)}.skm-header-action:hover:not(:disabled){color:var(--dsw-alias-label-primary)}
+[data-shortcut-modal=settings] :has(>.skm-page,>div>.skm-page){scrollbar-gutter:stable}
 .skm-search{width:100%;box-sizing:border-box}.skm-count{margin-left:auto;color:var(--dsw-alias-label-tertiary);font-size:12px;white-space:nowrap}
 .skm-toolbar{display:flex;align-items:center;gap:8px;min-width:0}.skm-toolbar>.skm-search{flex:1;min-width:0;width:auto}
 .skm-filter{flex:0 0 160px;min-width:0}.skm-filter>button{width:100%;justify-content:space-between;gap:8px}.skm-filter-label{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}

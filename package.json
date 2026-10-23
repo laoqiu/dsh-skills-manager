@@ -1,7 +1,6 @@
 {
   "name": "dsh-skills-manager",
   "version": "0.1.2",
-  "private": true,
   "description": "Native DSH settings page for global and project skills",
   "type": "module",
   "license": "MIT",
@@ -54,23 +53,24 @@
     "zod": "^4.2.0"
   },
   "peerDependencies": {
-    "@deepseek-ai/cordis": "4.0.5-alpha.1",
-    "@deepseek-ai/dsh-api-workspace-controller": "0.2.1-alpha.2",
-    "@deepseek-ai/dsh-client-connection": "0.2.1-alpha.2",
-    "@deepseek-ai/dsh-client-locale": "0.2.1-alpha.2",
-    "@deepseek-ai/dsh-client-ui-layout": "0.2.1-alpha.2",
-    "@deepseek-ai/dsh-client-ui-primitives": "0.2.1-alpha.2",
-    "@deepseek-ai/dsh-client-ui-renderer": "0.2.1-alpha.2",
-    "@deepseek-ai/dsh-client-ui-settings": "0.2.1-alpha.2",
-    "@deepseek-ai/dsh-client-ui-workspace": "0.2.1-alpha.2",
-    "@deepseek-ai/dsh-home-paths": "0.2.1-alpha.2",
-    "@deepseek-ai/dsh-workspace": "0.2.1-alpha.2",
-    "@deepseek-ai/schemastery": "3.18.5-alpha.1",
+    "@deepseek-ai/cordis": "4.0.5",
+    "@deepseek-ai/dsh-api-workspace-controller": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-client-connection": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-client-locale": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-client-ui-layout": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-client-ui-primitives": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-client-ui-renderer": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-client-ui-settings": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-client-ui-workspace": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-home-paths": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-workspace": "0.2.1-rc.2",
+    "@deepseek-ai/schemastery": "3.18.5",
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@deepseek-ai/dsh-client-store": "0.2.1-alpha.2",
-    "@deepseek-ai/dsh-client-ui-slots": "0.2.1-alpha.2",
+    "@deepseek-ai/dsh-client-store": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-client-ui-conversation": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-client-ui-slots": "0.2.1-rc.2",
     "@types/node": "^22.10.0",
     "@types/react": "^18.3.0",
     "esbuild": "^0.28.2",
@@ -83,5 +83,8 @@
   "homepage": "https://github.com/laoqiu/dsh-skills-manager#readme",
   "bugs": {
     "url": "https://github.com/laoqiu/dsh-skills-manager/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.antistudio.cn/"
   }
 }

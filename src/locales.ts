@@ -1,5 +1,9 @@
 /** Feature-owned English and Chinese copy, including the unsubmitted creation draft. */
 export const en = {
+  checkUpdates: 'Check for updates', checkingUpdates: 'Checking for updates…', checkAgain: 'Check again',
+  currentVersion: 'Current version', latestVersion: 'Latest version', viewRelease: 'View release',
+  updateAvailable: 'A new version is available', upToDate: 'Already up to date', noRelease: 'No stable release has been published yet', updateCheckFailed: 'Could not check for updates. Please retry.',
+  subtitle: 'Manage skills across workspaces and globally.', viewProject: 'GitHub', feedback: 'Issues',
   nav: 'Skills', search: 'Search skills', global: 'Global', allWorkspaces: 'All workspaces', workspaceFilter: 'Filter by workspace',
   empty: 'No skills in this scope', noResults: 'No matching skills', reset: 'Clear search',
   loading: 'Loading skills', refresh: 'Refresh', count: '{count} skills', custom: 'Custom',
@@ -31,6 +35,10 @@ export const en = {
 }
 export type Key = keyof typeof en
 export const zh: Record<Key, string> = {
+  checkUpdates: '检查更新', checkingUpdates: '正在检查更新…', checkAgain: '重新检查',
+  currentVersion: '当前版本', latestVersion: '最新版本', viewRelease: '查看发布版本',
+  updateAvailable: '发现新版本', upToDate: '已是最新版本', noRelease: '尚未发布正式版本', updateCheckFailed: '检查更新失败，请稍后重试',
+  subtitle: '管理各工作区与全局的技能', viewProject: 'GitHub', feedback: '问题反馈',
   nav: '技能', search: '搜索技能', global: '全局', allWorkspaces: '所有工作区', workspaceFilter: '按工作区筛选',
   empty: '此范围内暂无技能', noResults: '没有匹配的技能', reset: '清空搜索',
   loading: '加载技能', refresh: '刷新', count: '{count} 个技能', custom: '自定义',
