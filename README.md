@@ -127,3 +127,9 @@ Host 和 Client 共用一个包与构建配置。通信复用 DSH 的认证连�
 ## 许可
 
 MIT，见 [LICENSE](LICENSE)。
+
+
+## Private registry distribution
+
+This build is distributed as `dsh-skills-manager` through `https://registry.antistudio.cn/`. Update checks use `https://registry.antistudio.cn/index.json`; package downloads use the npm credentials configured in the active DSH profile. GitHub hosts source code and issue reports.
+
